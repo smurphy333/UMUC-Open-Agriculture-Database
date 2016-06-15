@@ -1,0 +1,27 @@
+<div class="row">
+  <div id="newsfeed" class="col-lg-7">
+    <h4><%= fa_icon "newspaper-o" %> OpenAg Recent Updates</h4>
+    <div id="activities">
+      <% if @activities.empty? %>
+        <div class="well">
+          <%= render('shared/no_resource', resources: 'Activities') %>
+        </div>
+      <% else %>
+        <%= render_activities(@activities, layout: '/shared/activity') %>
+      <% end %>
+    </div>
+    <%= render 'shared/paginate', resources: @activities %>
+  </div>
+  <div id="intro" class="col-lg-8">
+    <h1>OpenAgDb</h1>
+    <p>Open Agriculture Database is a social media page targeted atsupporting the sharinging of food computer data. This site has been designed using Ruby on Rails Framework <%= fa_icon 'diamond' %>
+    </a>.</p>
+    <hr>
+    <a href="" class="btn btn-warning">
+      <%= fa_icon 'star' %> Empty Link
+    </a>
+    <a href="" class="btn btn-primary">
+      <%= fa_icon 'code-fork' %> Empty Link
+    </a>
+  </div>
+</div>
