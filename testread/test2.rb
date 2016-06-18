@@ -1,5 +1,4 @@
-example = '(s-expression 1)'
-
-ast = Parser.parse(example)
-
-
+file='SG_hum50_LODG.gro'
+File.readlines(file).each do |line|
+  puts line
+end

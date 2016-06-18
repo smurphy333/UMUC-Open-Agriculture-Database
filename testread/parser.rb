@@ -42,13 +42,13 @@ class Parser
      root_node.elements.delete_if{|node| node.class.name == "Treetop::Runtime::SyntaxNode" }
       root_node.elements.each {|node| self.clean_tree(node) }
     end
-#string builder
-s = StringIO.new
-#puts Parser.parse("(define test (lambda ()))")
-File.open("SG_hum50_LODG.gro").each do |line|
+ #string builder
+ s = StringIO.new
+ #puts Parser.parse("(define test (lambda ()))")
+ File.open("SG_hum50_LODG.gro").each do |line|
   # s << line
-  puts Parser.parse(line)
-end
-# puts Parser.parse(s.string)
+    puts Parser.parse(line)
+ end
+ # puts Parser.parse(s.string)
 end
 
