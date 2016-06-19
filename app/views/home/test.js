@@ -2,12 +2,8 @@ var request , xml;
 
 function populateCells(){
   var i,nums = xml.getElementByTagName("num");
-  var j,strs = xml.getElementByTagName("str");
   for (i=0;i<nums.length;i++){
-  document.getElementByld("n"+i).innerHTML = nums[i].firstChild.data;
-    for (j=0;j<strs.length;j++){
-    document.getElementByld("n"+j).innerHTML = strs[j].firstChild.data;
-    }
+  document.getElementById("n"+i).innerHTML = nums[i].firstChild.data;
   }  
 }
 
@@ -31,7 +27,8 @@ function  init(){
   request.open("GET", "test.xml" , true);
   request.send(null);
   request.onreadystatechange = storeXML ;
-  document.getElementByld( "btn" ).onclick = update ;
+  document.getElementById( "btn" ).onclick = update ;
+  
 }
 document.addEventListener( "DOMContentLoaded", init, false);
 
