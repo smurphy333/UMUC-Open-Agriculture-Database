@@ -20,8 +20,8 @@ or view an example .gro file in graph format.
 
 To contribute or create a personal instance: Follow these simple instructions
 
-1.Set up a server or VM with Ubuntu 14.0.4, with ruby on rails and Git Hub 
-    ~Step by step guide found here https://gorails.com/setup/ubuntu/14.04
+1.Set up a server or VM with Ubuntu 14.0.4, with ruby on rails and Git Hub\n 
+   \t ~Step by step guide found here https://gorails.com/setup/ubuntu/14.04\n
 2.From root directory type: cd ~rails/
 3. Use Git to clone repository: git clone https://github.com/smurphy333/UMUC-Open-Agriculture-Database.git
 4. Create a feature branch: git checkout -b branchYOURNAME
