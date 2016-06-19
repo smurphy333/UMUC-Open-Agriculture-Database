@@ -2,6 +2,7 @@
 
 ## Introduction
 *Please note this a work in progress and may not be stable at all times*
+
 The Team Food project is a social networking site that is aimed at providing a place for food computer builders to share and discuss the plant growing recipes they have built. You can read more about what food computers are at MIT's site for their Open Agriculture initiative [here](http://openag.media.mit.edu/).
 
 ## Basic Functionality
@@ -11,7 +12,7 @@ With the goal of creating a central place where food computer builders can meet 
 * Upload/download recipe (*.gro) files
 * Graphical viewing of recipe file contents
 
-## How to install run
+## How to install and run
 To run this on a local machine you will need at least the following:
 * Ruby, at least version 2.2.1
 * Rails, at least version 4.1.6
