@@ -1,7 +1,7 @@
 # Team Food Capstone Project
 ## Open Agriculture Recipe Sharing App
 
-The live version is still in development, it may not be stable at all times, but if it is up you can access it at: http://.243.4.201:3000/
+The live version is still in development, it may not be stable at all times, but if it is up you can access it at: http://162.243.4.201:3000/
 
 Via the splash page users can create an account, read the about page, login to an existing account
 or view an example .gro file in graph format.
