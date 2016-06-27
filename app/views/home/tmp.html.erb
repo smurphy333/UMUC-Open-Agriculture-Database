@@ -8,69 +8,25 @@
 <%require 'csv'%>
 <%require 'treetop'%>
 <%require 'stringio'%>
-<%require File.expand_path(File.join(File.dirname(__FILE__), 'node_extensions.rb'))%>
 
-<%
-########RUBY PARSER SET UP####################
+<!--set base path for groParse..?-->
+<%#require_relative  "/app/views/home/groParser%> 
+<%base_path = File.expand_path(File.dirname(__FILE__))%>
+<%#require File.join(base_path, "/gro_parser.rb")%>
+<%Treetop.load(File.join(base_path, 'sexp_parser.treetop'))%>
 
-  
-  # Create instance of parser and load parser treetop file
-  Treetop.load(File.expand_path(File.join(File.dirname(__FILE__), 'sexp_parser.treetop')))
-  @@groParser = SexpParser.new
-  
-  # Parse an input string and return in a format
-  def self.groParse(data)
-    
-    # Pass the data over to the parser instance
-    tree = @@groParser.parse(data)
-    
-    # If the AST is nil then there was an error during parsing
-    # we need to report a simple error message to help the user
-   if(tree.nil?)
-    raise Exception, "Parse error at offset: #{@@groParser.index}"
-   end
-    
-    # Remove all syntax nodes that aren't one of our custom
-    # classes. If we don't do this we will end up with a *lot*
-    # of essentially useless nodes
-    self.clean_tree(tree)
-    
-    # Convert the AST into an array representation of the input
-    # structure and return it
-    return tree.to_array
-  end
+<!--Start string Builder/Open gro file and scan by line-->
+<%s = StringIO.new%>
+<%gro = "#{Rails.root}/app/views/home/SG_hum50_LODG.gro"%>
+<% File.open(gro).each do |line|%>
+
+  <%#ast = GroParser.groParse(line)%>
+  <%s << line%>
+ <%end%>
+<%puts (s.string)%>
+<%h(s.string)%>
 
 
-  
-    def self.clean_tree(root_node)
-      return if(root_node.elements.nil?)
-     root_node.elements.delete_if{|node| node.class.name == "Treetop::Runtime::SyntaxNode" }
-      root_node.elements.each {|node| self.clean_tree(node) }
-    end
-##############################################END PARSER###################
-%>
-<%
-################################RUBY FILE READER###################
-header = "Sensor Read", "DAY", "Time", "Sensor", "Sensor Value"
-
-@s = StringIO.new
-@s << header
-@s << "," << "\n"
-gro = "#{Rails.root}/app/views/home/SG_hum50_LODG.gro"
-
-File.open(gro).each do |line|
-@s << groParse(line)<< "," << "\n"
-end
-
-puts @s.string
-
-output = File.open( "#{Rails.root}/app/views/home/outputfile.txt","w" )
-output << @s.string
-output.close
-
-
-#################################END FILE LOAD######################
-%>
   <div class="col-lg-6 col-lg-offset-3 well" >
     <h3 class="text-center">Grow File Graph</h3>
     </div>
@@ -91,26 +47,28 @@ output.close
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
-      
+      google.charts.setOnLoadCallback(drawChartRuby);
+/**************************TABLE TWO****************************/      
+function drawChart() {
+      var data2 = google.visualization.ArrayToDataTable();
 
+        var options = {
+          title: 'Upload',
+          vAxis: {title: 'Time'},
+          isStacked: true
+        };
+
+var bubbleRuby = new google.visualization.PieChart(document.getElementById('chart_div2'));
+
+        bubbleRuby.draw(data2, options);
+      }
+/***************************TABLE ONE***************************/     
      function drawChart() {
 
-        var data = new google.visualization.arrayToDataTable([<%@s.string%>]);
+        var data = google.visualization.arrayToDataTable([
+["Title", "day","Time","Sensor", "Value"],
 
-/*data.addColumn('string', 'Reader Index');
-data.addColumn('number', 'Day');
-data.addColumn('string', 'Time');
-data.addColumn('string', 'Sensor');
-data.addColumn('number', 'Sensor Value');
-
-
-
-data.addRows([
-<%@s.string%>
-]);*/
-
-
-/*["Sensor Read 1", 0, ":00:00:00", "SLIN", 0],
+["Sensor Read 1", 0, ":00:00:00", "SLIN", 0],
 ["Sensor Read 2", 0, ":00:00:00", "SATM", 26],
 ["Sensor Read 3", 0, ":18:00:00", "SATM", 23],
 ["Sensor Read 4", 1, ":00:00:00", "SATM", 26],
@@ -347,7 +305,7 @@ data.addRows([
 ["Sensor Read 235", 60, ":00:00:00", "GHAR", 0],
 
 
-]);*/
+]);
 
         var options = {
           title: 'Simple Greens recipe',
@@ -355,15 +313,29 @@ data.addRows([
           isStacked: true
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
 
-       chart.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+        chart.draw(data, options);
       }
     </script>
 
   
  <div id = "chart_div" width="200" height="200" align="middle" >
 </div>
+<div id = "chart_div2" width="200" height="200" align="middle" >
+</div>
 
+ <div id = "ruby_div" width="200" height="200" align="middle" >
 
+<%file2 = Array.new%>.
+<%File.open("#{Rails.root}/app/views/home/new.gro").each do |line|
+    # s << line
+
+  
+#  h( puts (line) #GroParser.groParse(line))
+  # h( puts s.string)
+   
+ end%>.
+<%file2%>
+</div>
 
