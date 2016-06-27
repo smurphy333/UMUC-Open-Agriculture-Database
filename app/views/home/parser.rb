@@ -21,9 +21,9 @@ class Parser
     
     # If the AST is nil then there was an error during parsing
     # we need to report a simple error message to help the user
-    if(tree.nil?)
-      raise Exception, "Parse error at offset: #{@@parser.index}"
-    end
+   if(tree.nil?)
+    raise Exception, "Parse error at offset: #{@@parser.index}"
+   end
     
     # Remove all syntax nodes that aren't one of our custom
     # classes. If we don't do this we will end up with a *lot*
@@ -44,11 +44,11 @@ class Parser
     end
  #string builder
  s = StringIO.new
- #puts Parser.parse("(define test (lambda ()))")
+# puts Parser.parse("(define test (lambda ()))")
  File.open("SG_hum50_LODG.gro").each do |line|
 
    s << Parser.parse(line)
-  #  puts Parser.parse(line)
+    puts Parser.parse(line)
  end
   puts (s.string)
 end

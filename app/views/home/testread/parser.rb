@@ -46,10 +46,9 @@ class Parser
  s = StringIO.new
  #puts Parser.parse("(define test (lambda ()))")
  File.open("SG_hum50_LODG.gro").each do |line|
-
-   s << Parser.parse(line)
+  # s << line
   #  puts Parser.parse(line)
  end
-  puts (s.string)
+ # puts Parser.parse(s.string)
 end
 

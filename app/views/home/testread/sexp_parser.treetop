@@ -1,10 +1,10 @@
 #This file defines the actions ofthe parser  
 grammar Sexp
   rule expression
-    space? body  space? <Expression>
+    space?  body  space? <Expression>
   end  
   rule body
-   (integer / ":" /integer / ":" /integer / ":" /integer / . / string / space / integer)+ <Body>
+  (integer / ":" / space / word / float)+ <Body>
   end
 
   rule integer
@@ -16,11 +16,16 @@ grammar Sexp
   end
   
   rule string
-  '"' ('\"' / !'"' .)* '"'
+    '"'
+    (
+   !'"'
+   (./"\n")
+    )*
+    '"' <StringLiteral>
   end
   
   rule word
-    [a-zA-Z]
+    [a-zA-Z]+
   end
   rule identifier
     [a-zA-Z\=\*] [a-zA-Z0-9_\=\*]* <Identifier>
