@@ -40690,3 +40690,3492 @@ Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.
 
 
 Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 20:32:21 -0400
+
+
+Started GET "/" for 199.189.101.220 at 2016-06-26 21:22:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#front as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (7.1ms)
+  Rendered home/front.html.erb within layouts/application (23.1ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+Completed 200 OK in 415ms (Views: 387.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application-c75df17f5c16f6d11830811a51d61ed1.css?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:07 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/assets/ajax-loader-65b946e486395404f1f189d9c83f126b.gif" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/assets/fontawesome-webfont-382e7577d2bc859a7421b3c489080eb7.woff2?v=4.3.0" for 199.189.101.220 at 2016-06-26 21:22:08 -0400
+
+
+Started GET "/" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+Processing by HomeController#front as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (2.2ms)
+  Rendered home/front.html.erb within layouts/application (7.2ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 172ms (Views: 168.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/application-c75df17f5c16f6d11830811a51d61ed1.css?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 199.189.101.220 at 2016-06-26 21:22:24 -0400
+
+
+Started GET "/assets/ajax-loader-65b946e486395404f1f189d9c83f126b.gif" for 199.189.101.220 at 2016-06-26 21:22:25 -0400
+
+
+Started GET "/assets/fontawesome-webfont-382e7577d2bc859a7421b3c489080eb7.woff2?v=4.3.0" for 199.189.101.220 at 2016-06-26 21:22:25 -0400
+
+
+Started GET "/" for 66.249.83.185 at 2016-06-26 22:03:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#front as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (6.0ms)
+  Rendered home/front.html.erb within layouts/application (19.6ms)
+  Rendered shared/_navbar.html.erb (4.0ms)
+Completed 200 OK in 5951ms (Views: 5935.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 69.166.191.127 at 2016-06-26 22:03:31 -0400
+Processing by HomeController#front as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (1.7ms)
+  Rendered home/front.html.erb within layouts/application (5.5ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 213ms (Views: 211.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:03:31 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:31 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/ajax-loader-65b946e486395404f1f189d9c83f126b.gif" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/assets/fontawesome-webfont-46cab4a446fcba2d5e2c82f31cec1008.woff2" for 69.166.191.127 at 2016-06-26 22:03:32 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:03:35 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (357.1ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 557ms (Views: 556.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:36 -0400
+
+
+Started GET "/test" for 69.166.191.127 at 2016-06-26 22:03:42 -0400
+Processing by HomeController#test as HTML
+  Rendered home/test.html within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 205ms (Views: 202.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:42 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:42 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:42 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+
+
+Started GET "/test.css" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+Processing by HomeController#test as CSS
+  Rendered home/test.css (0.5ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.js" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+Processing by HomeController#test as JS
+  Rendered home/test.js (0.5ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.xml" for 69.166.191.127 at 2016-06-26 22:03:43 -0400
+Processing by HomeController#test as XML
+  Rendered home/test.xml (0.5ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 69.166.191.127 at 2016-06-26 22:03:50 -0400
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.2.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_permitted_parameters at /home/rails/UMUC-Open-Agriculture-Database/app/controllers/application_controller.rb:14)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_in) is deprecated and it will be removed from Devise 4.2.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_in, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_in, except: [:email])
+ (called from configure_permitted_parameters at /home/rails/UMUC-Open-Agriculture-Database/app/controllers/application_controller.rb:15)
+  Rendered devise/shared/_links.html.erb (3.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (718.4ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 932ms (Views: 892.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:51 -0400
+
+
+Started POST "/users/sign_in" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C6xnGyqTrNG44E330XqP58Y5ZCYFSWl/fb2CjYLRsvc=", "user"=>{"email"=>"smurphy333@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.2.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_permitted_parameters at /home/rails/UMUC-Open-Agriculture-Database/app/controllers/application_controller.rb:14)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_in) is deprecated and it will be removed from Devise 4.2.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_in, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_in, except: [:email])
+ (called from configure_permitted_parameters at /home/rails/UMUC-Open-Agriculture-Database/app/controllers/application_controller.rb:15)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'smurphy333@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 14ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C6xnGyqTrNG44E330XqP58Y5ZCYFSWl/fb2CjYLRsvc=", "user"=>{"email"=>"smurphy333@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_up) is deprecated and it will be removed from Devise 4.2.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_up, except: [:email])
+ (called from configure_permitted_parameters at /home/rails/UMUC-Open-Agriculture-Database/app/controllers/application_controller.rb:14)
+DEPRECATION WARNING: [Devise] Changing the sanitized parameters through "Devise::ParameterSanitizer#for(sign_in) is deprecated and it will be removed from Devise 4.2.
+Please use the `permit` method to add or remove any key:
+
+  To add any new key, use the `keys` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_in, keys: [:param1, :param2, :param3])
+
+  To remove any existing key, use the `except` keyword argument:
+  devise_parameter_sanitizer.permit(:sign_in, except: [:email])
+ (called from configure_permitted_parameters at /home/rails/UMUC-Open-Agriculture-Database/app/controllers/application_controller.rb:15)
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 298ms (Views: 178.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:03:53 -0400
+
+
+Started GET "/about" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 236ms (Views: 233.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/assets/foodlab2.png" for 69.166.191.127 at 2016-06-26 22:04:02 -0400
+
+
+Started GET "/" for 69.166.191.127 at 2016-06-26 22:04:16 -0400
+Processing by HomeController#front as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_paginate.html.erb (1.3ms)
+  Rendered home/front.html.erb within layouts/application (4.3ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 170ms (Views: 168.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/assets/ajax-loader-65b946e486395404f1f189d9c83f126b.gif" for 69.166.191.127 at 2016-06-26 22:04:17 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:04:38 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (252.0ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 426ms (Views: 424.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:04:39 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:08:13 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (363.2ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 522ms (Views: 518.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:13 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:13 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:13 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:08:13 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:08:14 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:08:21 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:10:57 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (308.1ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 457ms (Views: 450.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:10:58 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:13:50 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (350.0ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 539ms (Views: 535.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:13:51 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:16:49 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (335.2ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 499ms (Views: 495.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:16:49 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:49 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:49 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:49 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:49 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:49 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:49 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:16:50 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:19:52 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (365.3ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 596ms (Views: 591.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:19:53 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:20:30 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (292.6ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 460ms (Views: 457.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:20:31 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:24:25 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (421.2ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 660ms (Views: 657.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:24:26 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:24:59 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (385.0ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 538ms (Views: 533.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:25:00 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:26:57 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (303.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 466ms (Views: 463.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:26:58 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:29:59 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (261.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 425ms (Views: 423.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:30:00 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:33:46 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (370.4ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+Completed 200 OK in 557ms (Views: 552.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:33:47 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:35:15 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (370.3ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 549ms (Views: 548.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:35:16 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:36:03 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (324.9ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 493ms (Views: 490.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:04 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:36:33 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (407.0ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 564ms (Views: 562.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:34 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:36:37 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (254.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 397ms (Views: 396.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:36:38 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (338.4ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 475ms (Views: 472.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:01 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:02 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:37:24 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (299.8ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 446ms (Views: 445.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:37:24 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:24 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:24 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:24 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:37:25 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:38:08 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (322.9ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 476ms (Views: 473.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:38:09 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:40:13 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (293.7ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 462ms (Views: 460.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:40:13 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:13 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:14 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (241.5ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 388ms (Views: 386.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:40:39 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:47:44 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (345.5ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 549ms (Views: 545.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:47:45 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:53:40 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (324.1ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 495ms (Views: 489.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:53:41 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:55:43 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (330.0ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 499ms (Views: 496.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:55:43 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:55:44 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:56:33 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (326.8ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+Completed 200 OK in 592ms (Views: 589.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:56:34 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:58:10 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (533.8ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 773ms (Views: 768.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:58:11 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 22:59:07 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (267.4ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 424ms (Views: 422.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 22:59:08 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:00:08 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (395.3ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+Completed 200 OK in 600ms (Views: 597.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:00:08 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:09 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:00:23 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (400.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 570ms (Views: 567.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:00:24 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:03:11 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (359.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 515ms (Views: 510.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:12 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:13 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:13 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:13 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:03:13 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:04:13 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (256.1ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 389ms (Views: 387.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:14 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (386.4ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 566ms (Views: 564.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:32 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:33 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:33 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:04:33 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:07:06 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (343.5ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 517ms (Views: 515.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:07 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:07:21 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (264.2ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 417ms (Views: 415.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:07:22 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (354.0ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 494ms (Views: 489.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:27:21 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:28:05 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (366.0ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+Completed 200 OK in 550ms (Views: 548.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:05 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:28:05 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:05 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:05 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:05 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:05 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:06 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:28:36 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (390.1ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 557ms (Views: 554.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:28:37 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:33:02 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (570.3ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 779ms (Views: 774.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:33:03 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (352.7ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 502ms (Views: 499.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:40 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:41 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:41 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:41 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:41 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:41 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:41 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:41 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:41:41 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:42:22 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (281.0ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 415ms (Views: 413.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:42:23 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:44:01 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (440.4ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 598ms (Views: 593.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:44:02 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:49:11 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (330.7ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 484ms (Views: 480.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:49:12 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:51:13 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (448.2ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 660ms (Views: 657.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:51:15 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:53:38 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (335.8ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 487ms (Views: 484.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:53:39 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (301.2ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 459ms (Views: 457.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:08 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:55:58 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (297.5ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 468ms (Views: 467.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:55:59 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:56:00 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:56:00 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:56:00 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:56:00 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:56:00 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:56:00 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:56:00 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-26 23:57:22 -0400
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (277.4ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 424ms (Views: 422.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-26 23:57:22 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:22 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:22 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:22 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:22 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-26 23:57:23 -0400
+
+
+Started GET "/graph" for 69.166.191.127 at 2016-06-27 00:00:44 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#graph as HTML
+  Rendered home/graph.html.erb within layouts/application (913.0ms)
+  Rendered shared/_navbar.html.erb (3.8ms)
+Completed 200 OK in 1241ms (Views: 1211.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:45 -0400
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:46 -0400
+
+
+Started GET "/" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+Processing by HomeController#front as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.9ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (13.7ms)
+  Rendered home/front.html.erb within layouts/application (42.9ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 320ms (Views: 300.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application-44e23e93eb8aed5a2f0eb4d3a6e2cdad.css?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/jquery.atwho/index-cbd8e18642f4967002febe4eeaf1fde7.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.atwho-f73c3178717a74b30c106110f88f94fc.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/jquery.atwho/jquery.caret-d690678aece0f4a88d9c1622f7f8f7f1.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:50 -0400
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:51 -0400
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:51 -0400
+
+
+Started GET "/assets/posts-989b6cf6f73cdbfbcada86aec287144b.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:51 -0400
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:51 -0400
+
+
+Started GET "/assets/application-84d60fd24cac86bd712d54b3730d8b23.js?body=1" for 69.166.191.127 at 2016-06-27 00:00:51 -0400
+
+
+Started GET "/assets/ajax-loader-65b946e486395404f1f189d9c83f126b.gif" for 69.166.191.127 at 2016-06-27 00:00:51 -0400
+
+
+Started GET "/assets/fontawesome-webfont-46cab4a446fcba2d5e2c82f31cec1008.woff2" for 69.166.191.127 at 2016-06-27 00:00:51 -0400
