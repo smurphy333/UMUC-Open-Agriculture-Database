@@ -62,7 +62,7 @@ File.open(gro).each do |line|
 @s << groParse(line)<< "," << "\n"
 end
 
-puts @s.string
+
 
 output = File.open( "#{Rails.root}/app/views/home/outputfile.txt","w" )
 output << @s.string
@@ -92,25 +92,23 @@ output.close
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
       
+ var test = <%@s.string%>
 
      function drawChart() {
+         var jsGraph = $({
+         url: test,
+         dataType:"",
+         async: false
+         }).responceText
+var data = new google.visualization.DataTable(jsGraph);
 
-        var data = new google.visualization.arrayToDataTable([<%@s.string%>]);
+         
 
-/*data.addColumn('string', 'Reader Index');
-data.addColumn('number', 'Day');
-data.addColumn('string', 'Time');
-data.addColumn('string', 'Sensor');
-data.addColumn('number', 'Sensor Value');
+        // var data = new google.visualization.arrayToDataTable(<%@s.string%>);
 
-
-
-data.addRows([
-<%@s.string%>
-]);*/
-
-
-/*["Sensor Read 1", 0, ":00:00:00", "SLIN", 0],
+/*
+["Sensor Read", "DAY", "Time", "Sensor", "Sensor Value"],
+["Sensor Read 1", 0, ":00:00:00", "SLIN", 0],
 ["Sensor Read 2", 0, ":00:00:00", "SATM", 26],
 ["Sensor Read 3", 0, ":18:00:00", "SATM", 23],
 ["Sensor Read 4", 1, ":00:00:00", "SATM", 26],
@@ -363,7 +361,5 @@ data.addRows([
 
   
  <div id = "chart_div" width="200" height="200" align="middle" >
+<%=t( @s.string.html_safe)%>
 </div>
-
-
-
