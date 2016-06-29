@@ -8,7 +8,7 @@ class Word < Treetop::Runtime::SyntaxNode
 
 class Time < Treetop::Runtime::SyntaxNode
     def to_array
-      return self.text_value
+      return self.text_value.to_f
     end
 end
 
@@ -48,7 +48,8 @@ class IntegerLiteral < Treetop::Runtime::SyntaxNode
       def to_array
         
       $i= $i+1
-       return self.elements[0].to_array.unshift('Sensor Read ' +  $i.to_s )
+      return self.elements[0].to_array.unshift('Sensor Read ' +  $i.to_s )
+      # return self.elements[0].to_array.unshift(1,to_array.delete(3) )
 
     end
   end
@@ -67,7 +68,8 @@ end
 
   class Body < Treetop::Runtime::SyntaxNode
     def to_array
-      return self.elements.map {|x| x.to_array}
+     return self.elements.map.with_index{|x,i| x.to_array} #.insert(1, to_array.delete(3))}
+
     end
   end
 
