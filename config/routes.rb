@@ -28,6 +28,7 @@ Rails.application.routes.draw do
   match :about, to: 'home#about', as: :about, via: :get
   match :test, to: 'home#test', as: :test, via: :get
   match :graph, to: 'home#graph', as: :graph, via: :get
+  match :EXAMPLEgraph, to: 'home#EXAMPLEgraph', as: :EXAMPLEgraph, via: :get
  
 
   # The priority is based upon order of creation: first created -> highest priority.

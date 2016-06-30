@@ -25,7 +25,9 @@ class UsersController < ApplicationController
 
   def deactivate
   end
-
+  def graph
+    @graph = @user.following_users.paginate(page: params[:page])
+  end
   def friends
     @friends = @user.following_users.paginate(page: params[:page])
   end

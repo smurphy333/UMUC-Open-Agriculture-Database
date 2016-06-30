@@ -99,7 +99,10 @@ output.close
      function drawChart() {
 
  var data = new google.visualization.arrayToDataTable([<%= raw(@s.string)%>]);
-      
+       /* [['SENSOR', 'VALUE',                             'TIME'],
+        ['SLIN',    0,                               180000],
+        ['SATM',    26,                             000000],
+        ['SAHU',    50,                             000000],]);*/
         var options = {
           title: 'Simple Greens recipe',
           vAxis: {title: 'Over Time'},
@@ -116,39 +119,3 @@ output.close
  <div id = "chart_div" width="200" height="200" align="middle" >
 
 </div>
-
-
-<div class="well">
-  <div id="mentionable-data" data-content="<%= mentionable_user_path(current_user) %>"></div>
-  <%= form_for(Post.new) do |f| %>
-    <div class="form-group">
-      <h4>Graph a Gro File(**Still under construction**)</h4>
-      
-    </div>
-    <div id="img-preview" class="form-group hidden">
-      <img src="" alt="Preview">
-    </div>
-    <div class="form-group hidden">
-      <%= f.file_field :attachment %>
-    </div>
-    <div class="form-group">
-      <a id="post-attachment" href="javascript:void(0);" class="pull-right btn btn-primary">
-        <%= fa_icon 'upload' %>
-      </a>
-      <%= f.submit 'Graph It!', class: 'btn btn-primary'%>
-    </div>
-  <% end %>
-</div>
-
- 
-<div align="middle">
-
-      <%= render 'shared/links' %>
-    </div>
- 
- <div align="middle">
-      <%= render 'shared/user_info' %>
-    </div>
-   
-
-
