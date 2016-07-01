@@ -4,7 +4,7 @@ grammar Sexp
    space? body  line? <Expression>
   end  
   rule body
-   (integer / time  / integer / space / word /  space / integer )+  <Body>
+  (integer / time  / integer / space / word /  space / integer )+  <Body>
   end
 
   rule integer
