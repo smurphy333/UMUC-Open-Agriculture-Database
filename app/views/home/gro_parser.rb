@@ -44,12 +44,14 @@ class GroParser
     end
  #string builder
  s = StringIO.new
+ 
 # puts Parser.parse("(define test (lambda ()))")
  File.open("SG_hum50_LODG.gro").each do |line|
-
    s << GroParser.groParse(line) << "," << "\n"
-  #  puts GroParser.groParse(line)
+  
+
  end
+  
   puts (s.string)
 end
 

@@ -7,9 +7,10 @@ class Word < Treetop::Runtime::SyntaxNode
   end
 
 class Time < Treetop::Runtime::SyntaxNode
-    def to_array
-      return self.text_value.to_f
+ def to_array
+      return self.text_value
     end
+
 end
 
   class Symbol < Treetop::Runtime::SyntaxNode
@@ -68,7 +69,8 @@ end
 
   class Body < Treetop::Runtime::SyntaxNode
     def to_array
-     return self.elements.map.with_index{|x,i| x.to_array} #.insert(1, to_array.delete(3))}
+     
+     return self.elements.map{|x| x.to_array}
 
     end
   end

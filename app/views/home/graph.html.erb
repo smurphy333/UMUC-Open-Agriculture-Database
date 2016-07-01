@@ -56,7 +56,7 @@ header = "Sensor Read", "DAY", "Time", "Sensor", "Sensor Value"
 @s << header
 @s << "," << "\n"
 #Load .gro file, currently local
-gro = "#{Rails.root}/app/views/home/SG_hum50_LODG.gro"
+gro = "#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"
 #Run through the file and at each line parse, and add syntax
 File.open(gro).each do |line|
   @s << groParse(line)<< "," << "\n"
