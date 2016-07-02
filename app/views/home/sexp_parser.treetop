@@ -4,8 +4,10 @@ grammar Sexp
    space? body  line? <Expression>
   end  
   rule body
-  (integer / time  / integer / space / word /  space / integer )+  <Body>
-  end
+ # (integer / time  / integer / space / word /  space / integer / float )+  <Body>
+(float /integer  / time / space / yum / word /  space / float / '!' )+  <Body>
+  
+end
 
   rule integer
     ('+' / '-')? [0-9]+ <IntegerLiteral>
@@ -23,6 +25,11 @@ grammar Sexp
   rule insert
   "," <Insert>
   end  
+ rule yum
+  "Yum" <Yum>
+  end
+
+
   rule word
    ('+' / '-')?  [a-zA-Z0-9]+ <Word>
   end

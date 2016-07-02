@@ -8,7 +8,7 @@ class Word < Treetop::Runtime::SyntaxNode
 
 class Time < Treetop::Runtime::SyntaxNode
  def to_array
-      return self.text_value
+      return 0
     end
 
 end
@@ -33,14 +33,14 @@ end
  
 class IntegerLiteral < Treetop::Runtime::SyntaxNode
     def to_array
-      return self.text_value.to_i
+      return self.text_value.to_f
     end
   end
 
  
   class Identifier < Treetop::Runtime::SyntaxNode
     def to_array
-      return self.text_value.to_sym
+      return
     end
   end
   
@@ -58,6 +58,11 @@ class IntegerLiteral < Treetop::Runtime::SyntaxNode
 class Insert < Treetop::Runtime::SyntaxNode
   def to_array
     return ",".text_value
+  end
+end
+class Yum < Treetop::Runtime::SyntaxNode
+  def to_array
+    return 0
   end
 end
 
