@@ -24,7 +24,7 @@ sharing of plant recipies between the community Team Food.
 With the goal of creating a central place where food computer builders can meet and share recipe files and discuss them our app will support the following functionality.
 
 * Create and manage account
-* Upload/download recipe (*.gro) files
+* Upload/download recipe files
 * Graphical viewing of recipe file contents
 * Text based viewing of recipe file (spreadsheet)
 
