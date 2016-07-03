@@ -10,28 +10,18 @@ control a food computer, and output them as a google chart
 <%require 'csv'%>
 <%require 'treetop'%>
 <%require 'stringio'%>
-<%#gro = "#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"%>
+<%@gro = "#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"%>
 
 
  <h3 class="text-center">Grow File Graph</h3>
 
 
 <select>
-  <option  @gro = <%@gro = "#{Rails.root}/app/views/home/SG_hum50_LODG.gro"%>>Simple Green</option> 
-<option  @gro = <%@gro = "#{Rails.root}/app/views/home/PA_hum50_LODG.gro"%>>Pineapple Post</option>
+  <option>Simple Green</option> 
+<option>Pineapple Post</option>
 
 </select>
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-    var x = document.getElementById("mySelect");
-    document.getElementById("demo").innerHTML = x;
-}
-
-</script> 
+ 
 
 
 <div id="dashboard_div">
