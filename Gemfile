@@ -3,16 +3,22 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
+#gem 'rails', '4.2.6'
 gem 'railroady'
 gem 'treetop'
-gem 'parser'
+# Use mysql as the database for Active Record
+gem 'mysql2', '~> 0.3.13'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+#gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+
 
 # Used to implement at.js for auto complete mentions/emojis
 gem 'jquery-atwho-rails'
@@ -22,7 +28,7 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 
-group :development do
+group :development do 
   gem 'spring'
   gem 'better_errors'
   gem 'binding_of_caller'
@@ -34,6 +40,8 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+#  gem 'mysql2', '>= 0.3.13', '< 0.5'
+#  gem 'byebug'
 end
 
 group :production do
@@ -70,3 +78,9 @@ gem 'auto_html','~>1.6.4'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Use MySQL2 for MySQL DB
+# gem 'mysql2'
+
+# Use YamlDb for db migration
+gem 'yaml_db'
