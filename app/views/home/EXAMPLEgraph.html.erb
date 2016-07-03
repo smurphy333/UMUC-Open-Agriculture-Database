@@ -2,8 +2,9 @@
 Josh Farquhar && Steven Murphy
 Open Agriculture Database Project
 UMUC 495
-This file is the paser to generate .gro files used to 
-control a food computer, and output them as a google chart 
+This file is the example graph which reads the data 
+file to an array and outputs to a google chart. Data
+is generic and intended for display purposes
 -->
 
 <%############################RUBY CODE SECTION################################%>
@@ -12,110 +13,68 @@ control a food computer, and output them as a google chart
 <%require 'stringio'%>
 <%require File.expand_path(File.join(File.dirname(__FILE__), 'node_extensions.rb'))%>
 
-<%
-###############RUBY PARSER SET UP####################
+<% #Load .gro file, stored path %>
+<% gro = "#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"%>
+ <h3 class="text-center">Grow File Graph Example</h3>
 
-  
-  # Instantiate parser 
-  Treetop.load(File.expand_path(File.join(File.dirname(__FILE__), 'sexp_parser.treetop')))
-  @@groParser = SexpParser.new
-  
-  # Parse input
-  def self.groParse(data)
-    
-    # pass data over parser
-    tree = @@groParser.parse(data)
-    
-    # Handle Parser errors
-   if(tree.nil?)
-    raise Exception, "Parse error at offset: #{@@groParser.index}"
-   end
-    
-    # Clean out exess syntax
-    self.clean_tree(tree)
-    
-    #return the parsed tree as an array
-    return tree.to_array
-  end
-    # Cleaner
-    def self.clean_tree(root_node)
-      return if(root_node.elements.nil?)
-     root_node.elements.delete_if{|node| node.class.name == "Treetop::Runtime::SyntaxNode" }
-      root_node.elements.each {|node| self.clean_tree(node) }
-    end
-##############################################END PARSER###################
-%>
-<%
-################################RUBY FILE READER###################
-#Create a header for the Graph file, this will define columns
-header = "Sensor Read", "DAY", "Time", "Sensor", "Sensor Value"
-
-# Make a string builder s, and load header into the top, 
-#add syntax for google charts
-@s = StringIO.new
-@s << header
-@s << "," << "\n"
-#Load .gro file, currently local
-gro = "#{Rails.root}/app/views/home/SG_hum50_LODG.gro"
-#Run through the file and at each line parse, and add syntax
-File.open(gro).each do |line|
-  @s << groParse(line)<< "," << "\n"
-end
-
-
-#Create an output file(may use in the future currently not active)
-output = File.open( "#{Rails.root}/app/views/home/outputfile.txt","w" )
-output << @s.string
-output.close
-
-
-#################################END FILE LOAD######################
-%>
-
-<!--Google Chart Syntax HTML/JS-->
-  <div class="col-lg-6 col-lg-offset-3 well" >
-    <h3 class="text-center">Grow File Graph</h3>
+    <div id="dashboard_div">
+            <div id="categoryPicker_div"></div>
+            <div id="chart_div"></div>
     </div>
 
-<div id="graphdiv2"
-  style="width:500px; height:100px;"></div>
-<script type="text/javascript">
-  g2 = new Dygraph(
-    document.getElementById("graphdiv2"),
-    "#{Rails.root}/app/views/home/new.csv", // path to CSV file
-    {}          // options
-  );
-</script>
+
+    <%
+
+    twodarray = [['Sensor', 'Timestamp', 'Sensor Value'],]
+    File.open(gro, "r") do |f|
+      f.each_line do |line|
+        textarray = line.split()
+        textarray[0], textarray[1], textarray[2] =textarray[1], textarray[0].gsub!(/:/, '').to_i, textarray[2].to_i
+        twodarray << textarray
+      end
+    end
+
+    %>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-      
- 
+      google.charts.load('current', {'packages':['corechart', 'table', 'gauge', 'controls']});
+      google.charts.setOnLoadCallback(drawMainDashboard);
+	   function drawMainDashboard() {
+        var dashboard = new google.visualization.Dashboard(
+            document.getElementById('dashboard_div'));
 
-     function drawChart() {
+        var categoryPicker = new google.visualization.ControlWrapper({
+          'controlType': 'CategoryFilter',
+          'containerId': 'categoryPicker_div',
+          'options': {
+            'filterColumnIndex': 0,
+            'ui': {
+              'labelStacking': 'horizontal',
+              'label': 'Sensor Selection:',
+              'allowTyping': false,
+              'allowMultiple': false
+            }
+          }
+        });
 
- var data = new google.visualization.arrayToDataTable([<%= raw(@s.string)%>]);
-       /* [['SENSOR', 'VALUE',                             'TIME'],
-        ['SLIN',    0,                               180000],
-        ['SATM',    26,                             000000],
-        ['SAHU',    50,                             000000],]);*/
-        var options = {
-          title: 'Simple Greens recipe',
-          vAxis: {title: 'Over Time'},
-          isStacked: true
-        };
+        var line = new google.visualization.ChartWrapper({
+          'chartType': 'LineChart',
+          'containerId': 'chart_div',
+          'options': {
+            'width': 800,
+            'height': 500,
+            'legend': 'right',
+          },
+          'view': {'columns': [0, 2]}
+        });
 
-        var chart = new google.visualization.BubbleChart(document.getElementById('chart_div'));
-
-       chart.draw(data, options);
+        var data = google.visualization.arrayToDataTable(<%= raw twodarray %>);
+        dashboard.bind([categoryPicker], [line]);
+        dashboard.draw(data);
       }
     </script>
 
-  
- <div id = "chart_div" width="200" height="200" align="middle" >
 
-</div>
+
