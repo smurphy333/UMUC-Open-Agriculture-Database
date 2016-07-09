@@ -29,8 +29,7 @@ Rails.application.routes.draw do
   match :test, to: 'home#test', as: :test, via: :get
   match :graph, to: 'home#graph', as: :graph, via: :get
   match :EXAMPLEgraph, to: 'home#EXAMPLEgraph', as: :EXAMPLEgraph, via: :get
- 
-
+  match :get_graph, to: 'home#get_graph',via: :get
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

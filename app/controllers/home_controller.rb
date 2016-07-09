@@ -21,6 +21,21 @@ class HomeController < ApplicationController
     @users =  User.where.not(id: @friends.unshift(@user)).paginate(page: params[:page])
   end
 
+  def graph
+    @recipes =  Dir.glob("#{Rails.root}/public/uploads/post/attachment/*/*.gro")
+  end
+
+  def get_graph
+    @twodarray = [['Sensor', 'Timestamp', 'Sensor Value'],]
+    File.open(params[:file] , "r") do |f|
+        f.each_line do |line|
+        textarray = line.split()
+        textarray[0], textarray[1], textarray[2] =textarray[1], textarray[0].gsub!(/:/, '').to_i, textarray[2].to_i
+        @twodarray << textarray
+      end
+    end
+  end
+
   private
   def set_user
     @user = current_user
