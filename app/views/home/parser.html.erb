@@ -1,0 +1,154 @@
+<!--ERB FILE
+Josh Farquhar && Steven Murphy
+Open Agriculture Database Project
+UMUC 495
+This file is the paser to generate .gro files used to 
+control a food computer, and output them as a google chart 
+-->
+
+<%############################RUBY CODE SECTION################################%>
+<%require 'csv'%>
+<%require 'treetop'%>
+<%require 'stringio'%>
+<%require File.expand_path(File.join(File.dirname(__FILE__), 'node_extensions.rb'))%>
+
+<%
+###############RUBY PARSER SET UP####################
+
+  
+  # Instantiate parser 
+  Treetop.load(File.expand_path(File.join(File.dirname(__FILE__), 'sexp_parser.treetop')))
+  @@groParser = SexpParser.new
+  
+  # Parse input
+  def self.groParse(data)
+    
+    # pass data over parser
+    tree = @@groParser.parse(data)
+    
+    # Handle Parser errors
+   if(tree.nil?)
+    raise Exception, "Parse error at offset: #{@@groParser.index}"
+   end
+    
+    # Clean out exess syntax
+    self.clean_tree(tree)
+    
+    #return the parsed tree as an array
+    return tree.to_array
+  end
+    # Cleaner
+    def self.clean_tree(root_node)
+      return if(root_node.elements.nil?)
+     root_node.elements.delete_if{|node| node.class.name == "Treetop::Runtime::SyntaxNode" }
+      root_node.elements.each {|node| self.clean_tree(node) }
+    end
+##############################################END PARSER###################
+%>
+<%
+################################RUBY FILE READER###################
+#Create a header for the Graph file, this will define columns
+header = "Sensor Read", "DAY", "Time", "Sensor", "Sensor Value"
+
+# Make a string builder s, and load header into the top, 
+#add syntax for google charts
+@s = StringIO.new
+@s << header
+@s << "," << "\n"
+#Load .gro file, currently local
+gro = "#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"
+#Run through the file and at each line parse, and add syntax
+File.open(gro).each do |line|
+  @s << groParse(line)<< "," << "\n"
+end
+
+
+#Create an output file(may use in the future currently not active)
+output = File.open( "#{Rails.root}/app/views/home/outputfile.txt","w" )
+output << @s.string
+output.close
+
+
+#################################END FILE LOAD######################
+%>
+
+<!--Google Chart Syntax HTML/JS-->
+  <div class="col-lg-6 col-lg-offset-3 well" >
+    <h3 class="text-center">Grow File Graph</h3>
+    </div>
+
+<div id="graphdiv2"
+  style="width:500px; height:100px;"></div>
+<script type="text/javascript">
+  g2 = new Dygraph(
+    document.getElementById("graphdiv2"),
+    "#{Rails.root}/app/views/home/new.csv", // path to CSV file
+    {}          // options
+  );
+</script>
+
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      
+ 
+
+     function drawChart() {
+
+ var data = new google.visualization.arrayToDataTable([<%= raw(@s.string)%>]);
+      
+        var options = {
+          title: 'Simple Greens recipe',
+          vAxis: {title: 'Over Time'},
+          isStacked: true
+        };
+
+        var chart = new google.visualization.BubbleChart(document.getElementById('chart_div'));
+
+       chart.draw(data, options);
+      }
+    </script>
+
+  
+ <div id = "chart_div" width="200" height="200" align="middle" >
+
+</div>
+
+
+<div class="well">
+  <div id="mentionable-data" data-content="<%= mentionable_user_path(current_user) %>"></div>
+  <%= form_for(Post.new) do |f| %>
+    <div class="form-group">
+      <h4>Graph a Gro File(**Still under construction**)</h4>
+      
+    </div>
+    <div id="img-preview" class="form-group hidden">
+      <img src="" alt="Preview">
+    </div>
+    <div class="form-group hidden">
+      <%= f.file_field :attachment %>
+    </div>
+    <div class="form-group">
+      <a id="post-attachment" href="javascript:void(0);" class="pull-right btn btn-primary">
+        <%= fa_icon 'upload' %>
+      </a>
+      <%= f.submit 'Graph It!', class: 'btn btn-primary'%>
+    </div>
+  <% end %>
+</div>
+
+ 
+<div align="middle">
+
+      <%= render 'shared/links' %>
+    </div>
+ 
+ <div align="middle">
+      <%= render 'shared/user_info' %>
+    </div>
+   
+
+
