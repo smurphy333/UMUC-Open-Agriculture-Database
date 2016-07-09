@@ -7,7 +7,7 @@
   <span class="text"><%= post.content_html %></span>
   <% if post.attachment.present? %>
     <div class="attachment">
-      <%= image_tag post.attachment %>
+       <%= link_to post.attachment, post.attachment_url %>
     </div>
   <% end %>
   <%= render 'shared/created_at', activity: post %>

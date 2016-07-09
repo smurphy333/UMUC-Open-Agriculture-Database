@@ -1,7 +1,7 @@
 <%= render 'shared/cover', user: @user %>
 <br>
 <div class="col-md-8">
-  <div id="user-<%= @user.id %>" class="row">
+  <div id="user-<%= @user.id %>">
     <%= render 'shared/user_info' %>
   </div>
   <div id="activities">
@@ -19,12 +19,14 @@
   <% if is_current_user?(@user) %>
     <div class="well">
       <ul class=nav nav-pills nav-stacked">
+        <li><%= link_to 'Graph your .gro file!', "/graph" %></li>
         <li><%= link_to 'Edit Profile', edit_user_path(@user) %></li>
         <li><%= link_to 'Change Password', edit_user_registration_path %></li>
         <li><%= link_to 'Friends', friends_user_path(@user) %></li>
         <li><%= link_to 'Followers', followers_user_path(@user) %></li>
         <li><%= link_to 'Deactivate', deactivate_user_path(@user) %></li>
-      </ul>
+        
+     </ul>
     </div>
   <% end %>
 </div>
