@@ -11,27 +11,29 @@ control a food computer, and output them as a google chart
 <%require 'treetop'%>
 <%require 'stringio'%>
 <%@gro = "#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"%>
+<% %>
 
 
  <h3 class="text-center">Grow File Graph</h3>
 
 
-<select>
-  <option>Simple Green</option> 
-<option>Pineapple Post</option>
+<%= form_for @gro do |f| %>
+<%= f.select  @gro, ['"#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"', '"#{Rails.root}/public/uploads/post/attachment/2/SG_hum50_LODG.gro"', '"#{Rails.root}/public/uploads/post/attachment/3/SG_hum50_LODG.gro"'], :selected => @gro%>
+<%
 
-</select>
- 
+end
 
+
+%>
+<p></p>
 
 <div id="dashboard_div">
             <div id="categoryPicker_div"></div>
             <div id="chart_div"></div>
     </div>
 
-
 <div class="well">
-  <%= form_for(Post.new) do |f| %>
+  <%= form_for Post.new do |f| %>
     <div class="form-group">
       <h4>Graph a Gro File(**Still under construction**)</h4>
 
@@ -48,7 +50,9 @@ control a food computer, and output them as a google chart
       </a>
       <%= f.submit 'Graph It!', class: 'btn btn-primary'%>
     </div>
+
   <% end %>
+
 </div>
 
 
@@ -58,10 +62,10 @@ control a food computer, and output them as a google chart
     </div>
 
     <%
-
+    
     twodarray = [['Sensor', 'Timestamp', 'Sensor Value'],]
     File.open(@gro , "r") do |f|
-      f.each_line do |line|
+        f.each_line do |line|
         textarray = line.split()
         textarray[0], textarray[1], textarray[2] =textarray[1], textarray[0].gsub!(/:/, '').to_i, textarray[2].to_i
         twodarray << textarray
