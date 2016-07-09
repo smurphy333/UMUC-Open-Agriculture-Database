@@ -7,30 +7,28 @@ control a food computer, and output them as a google chart
 -->
 
 <%############################RUBY CODE SECTION################################%>
-<%require 'csv'%>
-<%require 'treetop'%>
-<%require 'stringio'%>
-<%@gro = "#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"%>
-<% %>
+<%#require 'csv'%>
+<%#require 'treetop'%>
+<%#require 'stringio'%>
+<%#@gro = "#{Rails.root}/public/uploads/post/attachment/5/recipe3.gro"%>
 
 
- <h3 class="text-center">Grow File Graph</h3>
 
+<h3 class="text-center">Grow File Graph</h3>
 
-<%= form_for @gro do |f| %>
-<%= f.select  @gro, ['"#{Rails.root}/public/uploads/post/attachment/1/SG_hum50_LODG.gro"', '"#{Rails.root}/public/uploads/post/attachment/2/SG_hum50_LODG.gro"', '"#{Rails.root}/public/uploads/post/attachment/3/SG_hum50_LODG.gro"'], :selected => @gro%>
-<%
+<p>
+  <label>Select Recipe To Graph:</label>
+  <%# recipes = Dir.glob("#{Rails.root}/public/uploads/post/attachment/*/*.gro") %>
+  <%= form_tag(url: get_graph_path,:html => { :method => 'GET' }) do |f| %>
+    <%= select_tag 'choose_file' , options_for_select(@recipes.collect{ |u| [u.split('/')[-1].capitalize, u] }), {:prompt => "--Select a Recipe--"} %>
+  <% end %>
+</p>
 
-end
-
-
-%>
-<p></p>
 
 <div id="dashboard_div">
-            <div id="categoryPicker_div"></div>
-            <div id="chart_div"></div>
-    </div>
+  <div id="categoryPicker_div"></div>
+  <div id="chart_div"></div>
+</div>
 
 <div class="well">
   <%= form_for Post.new do |f| %>
@@ -54,63 +52,12 @@ end
   <% end %>
 
 </div>
-
-
 <div align="middle">
+  <%= render 'shared/links' %>
+</div>
 
-      <%= render 'shared/links' %>
-    </div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-    <%
-    
-    twodarray = [['Sensor', 'Timestamp', 'Sensor Value'],]
-    File.open(@gro , "r") do |f|
-        f.each_line do |line|
-        textarray = line.split()
-        textarray[0], textarray[1], textarray[2] =textarray[1], textarray[0].gsub!(/:/, '').to_i, textarray[2].to_i
-        twodarray << textarray
-      end
-    end
-
-    %>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart', 'table', 'gauge', 'controls']});
-      google.charts.setOnLoadCallback(drawMainDashboard);
-
-      function drawMainDashboard() {
-        var dashboard = new google.visualization.Dashboard(
-            document.getElementById('dashboard_div'));
-
-        var categoryPicker = new google.visualization.ControlWrapper({
-          'controlType': 'CategoryFilter',
-          'containerId': 'categoryPicker_div',
-          'options': {
-            'filterColumnIndex': 0,
-            'ui': {
-              'labelStacking': 'horizontal',
-              'label': 'Sensor Selection:',
-              'allowTyping': false,
-              'allowMultiple': false
-            }
-          }
-        });
-
-        var line = new google.visualization.ChartWrapper({
-          'chartType': 'LineChart',
-          'containerId': 'chart_div',
-          'options': {
-            'width': 800,
-            'height': 500,
-            'legend': 'right',
-          },
-          'view': {'columns': [0, 2]}
-        });
-
-        var data = google.visualization.arrayToDataTable(<%= raw twodarray %>);
-        dashboard.bind([categoryPicker], [line]);
-        dashboard.draw(data);
-      }
-    </script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart', 'table', 'gauge', 'controls']});
+</script>
